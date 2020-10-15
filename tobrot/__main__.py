@@ -73,7 +73,7 @@ if __name__ == "__main__" :
     #
     incoming_message_handler = MessageHandler(
         incoming_message_f,
-        filters=filters.command(["leech@Leeech2file_bot"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["leech@LeechXT_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(incoming_message_handler)
     #
@@ -115,51 +115,51 @@ if __name__ == "__main__" :
     #
     incoming_youtube_dl_handler = MessageHandler(
         incoming_youtube_dl_f,
-        filters=filters.command(["ytdl@Leeech2file_bot"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["ytdl@LeechXT_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(incoming_youtube_dl_handler)
     #
     incoming_youtube_playlist_dl_handler = MessageHandler(
         g_yt_playlist,
-        filters=filters.command(["pytdl@Leeech2file_bot"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["pytdl@LeechXT_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(incoming_youtube_playlist_dl_handler)
     #
     status_message_handler = MessageHandler(
         status_message_f,
-        filters=filters.command(["STATUS@Leeech2file_bot"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["STATUS@LeechXT_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(status_message_handler)
     #
     cancel_message_handler = MessageHandler(
         cancel_message_f,
-        filters=filters.command(["CANCEL@Leeech2file_bot"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["CANCEL@LeechXT_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(cancel_message_handler)
     #
     exec_message_handler = MessageHandler(
         exec_message_f,
-        filters=filters.command(["exec@Leeech2file_bot"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["exec@LeechXT_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(exec_message_handler)
     #
     '''
     eval_message_handler = MessageHandler(
         eval_message_f,
-        filters=filters.command(["eval@Leeech2file_bot"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["eval@LeechXT_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(eval_message_handler)
     '''
     #
     rename_message_handler = MessageHandler(
         rename_message_f,
-        filters=filters.command(["rename@Leeech2file_bot"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["rename@LeechXT_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(rename_message_handler)
     #
     upload_document_handler = MessageHandler(
         upload_document_f,
-        filters=filters.command(["upload@Leeech2file_bot"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["upload@LeechXT_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(upload_document_handler)
     #
@@ -171,7 +171,7 @@ if __name__ == "__main__" :
     #
     help_text_handler = MessageHandler(
         help_message_f,
-        filters=filters.command(["help@Leeech2file_bot"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["help@LeechXT_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(help_text_handler)
     #
@@ -194,13 +194,13 @@ if __name__ == "__main__" :
     #
     save_thumb_nail_handler = MessageHandler(
         save_thumb_nail,
-        filters=filters.command(["SAVETHUMBNAIL@Leeech2file_bot"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["SAVETHUMBNAIL@LeechXT_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(save_thumb_nail_handler)
     #
     clear_thumb_nail_handler = MessageHandler(
         clear_thumb_nail,
-        filters=filters.command(["CLEARTHUMBNAIL@Leeech2file_bot"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["CLEARTHUMBNAIL@LeechXT_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(clear_thumb_nail_handler)
     #
